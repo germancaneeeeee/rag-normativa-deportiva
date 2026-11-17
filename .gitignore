@@ -1,0 +1,14 @@
+# Entorno y claves: nunca se publican
+.venv/
+.env
+
+# Índice vectorial generado: se reconstruye desde datos/
+chroma_db_normativa/
+chroma_db*/
+
+# Archivos temporales
+__pycache__/
+.ipynb_checkpoints/
+
+# Respuestas marcadas con "Flag" en Gradio
+.gradio/
